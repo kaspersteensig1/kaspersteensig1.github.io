@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow: 
+Disallow: /kontakt/img
+Disallow: /job.uddanelse/img
+Disallow: /ommidtvask/img
+Disallow: /samarbejde/img
+Disallow: /img
+Allow: /samarbejde
+Allow: /ommidtvask
+Allow: /job.uddanelse
+Allow: /kontakt
+Disallow: /kontakt/kontakt-formuler.html
+Disallow: /kontakt/formmail.php
+Disallow: /kontakt/fejl.html
+Disallow: /kontakt/succes.html
+Disallow: /css
+Disallow: /scss
+Disallow: /script
