@@ -78,157 +78,163 @@ footer .container #krone {
 }
 /* line 76, ../scss/style.scss */
 footer .container #midt {
+  margin-top: 1.6em;
   width: 100%;
 }
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 footer .container #iso {
   width: 20%;
   float: left;
 }
-/* line 83, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 footer .container p {
   color: white;
 }
-/* line 86, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 footer .container span {
   color: white;
 }
-/* line 89, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 footer .container h5 {
   color: white;
 }
-/* line 92, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 footer .container h6 {
   font-size: 1.5em;
   color: white;
 }
-/* line 96, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 footer .container section {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-/* line 99, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 footer .container section h4 {
   float: left;
   color: white;
 }
-/* line 103, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 footer .container section p {
   padding-left: 15px;
   color: white;
 }
 
-/* line 110, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 #del1 {
   float: left;
   width: 50%;
 }
 
-/* line 114, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 #del2 {
   float: right;
   width: 50%;
 }
 
-/* line 118, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 input {
   margin-bottom: 1em;
 }
 
-/* line 121, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 textarea {
   margin-bottom: 1em;
 }
 
-/* line 125, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 a img {
   width: 30%;
 }
 
-/* line 129, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 navbar {
   opacity: 1;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #myNavbar {
   background-color: whitesmoke;
 }
-/* line 135, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 #myNavbar li ul {
   opacity: 1;
 }
-/* line 137, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 #myNavbar li ul li {
   display: block;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 145, ../scss/style.scss */
+  /* line 146, ../scss/style.scss */
   nav ul li:hover > ul {
     display: block;
   }
 }
 @media screen and (max-width: 991px) {
-  /* line 152, ../scss/style.scss */
+  /* line 153, ../scss/style.scss */
   nav .container {
     width: 100%;
   }
 }
-/* line 158, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .w3-content {
   max-width: 980px;
   margin: auto;
 }
 
-/* line 159, ../scss/style.scss */
+/* line 160, ../scss/style.scss */
 .w3-section {
   margin-top: 16px!important;
   margin-bottom: 16px!important;
 }
 
-/* line 160, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .w3-animate-fading {
   -webkit-animation: fading 10s infinite;
   animation: fading 10s infinite;
 }
 
 @-webkit-keyframes fading {
-  /* line 161, ../scss/style.scss */
+  /* line 162, ../scss/style.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 161, ../scss/style.scss */
+  /* line 162, ../scss/style.scss */
   50% {
     opacity: 1;
   }
 
-  /* line 161, ../scss/style.scss */
+  /* line 162, ../scss/style.scss */
   100% {
     opacity: 0;
   }
 }
 
 @keyframes fading {
-  /* line 162, ../scss/style.scss */
+  /* line 163, ../scss/style.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 162, ../scss/style.scss */
+  /* line 163, ../scss/style.scss */
   50% {
     opacity: 1;
   }
 
-  /* line 162, ../scss/style.scss */
+  /* line 163, ../scss/style.scss */
   100% {
     opacity: 0;
   }
 }
 
-/* line 164, ../scss/style.scss */
-iframe {
+/* line 165, ../scss/style.scss */
+#googlemap {
   width: 100%;
   height: 350px;
+}
+
+/* line 170, ../scss/style.scss */
+iframe {
+  margin: 0 auto;
 }
