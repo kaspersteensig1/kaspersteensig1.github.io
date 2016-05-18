@@ -160,3 +160,8 @@ nav ul li:hover > ul {
 .w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
 @-webkit-keyframes fading {0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+iframe {
+    width: 100%;
+    height: 350px;
+}
